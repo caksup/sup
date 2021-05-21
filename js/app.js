@@ -26,9 +26,8 @@ function popupResult(result) {
    });
 }
 
-/**
- * Draw image
- */
+/*Draw image
+ 
 function drawFrame() {
   var img = new Image();
   img.crossOrigin = "Anonymous";
@@ -40,7 +39,7 @@ function drawFrame() {
 		});
 	console.log('popup ok');
   }
-}
+} */
 
 
 function drawProfPict(src) {
