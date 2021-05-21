@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'><link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"><link rel="stylesheet" href="css/croppie.css"><link rel="stylesheet" href="css/sweetalert.css"><link rel="stylesheet" href="css/app.css"><link rel="stylesheet" href="css/🔴.css"><style>	body{
+
+  font-family: 'Fira Sans', sans-serif;
+
+  animation: animateBg 25s linear infinite;
+
+  background-image: linear-gradient(360deg,#ffffff,#ff0000,#ff0000, #ff9c00, #fff600, #06ff00, #00ffe5, #0700ff, #ff00fd,#ff00fd,#0700ff,#00ffe5,#06ff00,#fff600,#ff9c00,#ff0000,#ffffff,#ffffff,#ffffff);
+  background-size: 100% 1100%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+}
+
+</style>
+<style>
+ h1{
+   /* border:5px solid transparent;
+    border-radius:30px;
+    border-image:linear-gradient(130deg, red, green, blue, lime, purple,orange);*/
+    animation:gradient 2s linear infinite;
+    border-image-slice:1;
+    padding-top:0px;
+    position:relative;
+    /*font-size:15px;*/
+    top:0px;
+    text-align: center;
+    /*font-family: 'Ruslan Display', cursive;*/
+    background:linear-gradient(to right, red, green, blue, lime, purple,orange);
+    -webkit-text-fill-color:transparent ;
+    -webkit-background-clip:text;
+}
+@keyframes gradient{
+    50%{
+        filter:hue-rotate(360deg);
+    }
+}
+</style>
+<title>Bingkai</title></head><body><h1 class="title">#LaskarBrojowinangun</h1><div class="uploader"> <canvas id="imageCanvas" class="image-canvas"></canvas><div class="profile-pic-wrap"><div id="demo-basic"></div></div><div class="download-button"> <input type="file" name="file" id="imageLoader" class="inputfile" /> <label for="imageLoader">Pilih Foto</label><br/> <a class="basic-result button" style="display:none">Lihat</a></div></div> <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> <script type="text/javascript">$(function(){var pixelSource='data:image/gif;base64,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gjq65ZhoWgqoloZSuqmcH146Kql+Juolp6V2SuOnklLJpaCU4tmkqKfO2mSWj8q2q3y9xvfrfNjViil/xYZaaK2x/8oY5KZr8hnsYXZK6aytlyarLLPMYtusqbeWSOyzQ1o7bqWTaruls2+iahmF4U5KKKzIYrkhj5FCW2mcnpKoq7KBjomtvv8yKq+stB767WPu5govqK4iOq29Dxsb6qdKnhrmrE9ea+6gA/fJ55UVh3xxqpJ67OS9Dcupr8oAz5uwYyeve6y6pf7X74FuWspuyRnnS+jMFtfLMJndFt2zz+cWrfPSIONMLcbiiqspicJejXXWWm/Ndddefw122GKPTXbZZp+Ndtpqr812226/DXfccs9Nd91234133nrvzXfffv8NeOCCD0544YYfjnjiii/OeOOOPw555JJPTnnllrpfjnnmmm/Oeeeefw566KKPTnrppp+Oeuqqr856666/Dnvsss9Oe+2234577rrvznvvvv8OfPDCD0988cYfj3zyyi/PfPPOPw999NJPT3311l+Pffbab899995/D3744o9Pfvnmn49++uqvz3777r8Pf/zyz09//fbfj3/++u/Pf//+/w/AAApwgAQsoAEPiMAEKnCBDGygAx8IwQhKcIIUrKAFL4jBDGpwgxzsoAc/CMIQinCEJEREAQAAOw==';var useOnAllImages=true;var preload=new Image();preload.src=pixelSource;$('img').live('mouseenter touchstart',function(e){var img=$(this);if(img.hasClass('protectionOverlay'))return;if(!useOnAllImages&&!img.hasClass('protectMe'))return;var pos=img.offset();var overlay=$('<img class="protectionOverlay" src="'+pixelSource+'" width="'+img.width()+'" height="'+img.height()+'" />').css({position:'absolute',zIndex:9999999,left:pos.left,top:pos.top}).appendTo('body').bind('mouseleave',function(){setTimeout(function(){overlay.remove();},0,$(this));});if('ontouchstart'in window)$(document).one('touchend',function(){setTimeout(function(){overlay.remove();},0,overlay);});});});</script> <script>
+$( "#imageLoader" ).click(function() {
+  $( "a" ).show(10000);
+});
+</script><script src="js/jquery.js"></script> <script src="js/croppie.js"></script> <script src="js/sweetalert.min.js"></script> <script src="js/load-image.all.min.js"></script> <script src="js/app.js"></script>  <script src="js/🔴.js"></script> </body></html>
