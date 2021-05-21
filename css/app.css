@@ -65,16 +65,7 @@
 	background-color: #CCC
 }
 
-.cr-boundary:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-image: url('../images/frame.png');
-	background-size: 100%
-}
+
 
 body {
 	font-family: 'Fira Sans', sans-serif;
