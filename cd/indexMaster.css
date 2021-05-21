@@ -1,0 +1,10 @@
+.cr-boundary:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('i/u/hkn21.png');
+	background-size: 100%
+}
